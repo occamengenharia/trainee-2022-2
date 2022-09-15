@@ -1,0 +1,22 @@
+```js
+var nome = 'Occam'
+const nomeFixo = 'Occam'
+nome = 'Occão'
+nomeFixo = 'Occão'
+function soma(a, b) {
+  if (typeof a !== 'number' || typeof b !== 'number') {
+    throw new Error('Os parâmetros devem ser números')
+  }
+  return a + b
+}
+
+console.log(nome, nomeFixo, soma(1, 2))
+console.table({nome, nomeFixo, soma: soma(1, 2)})
+try {
+  soma(nome,2)
+} catch (error) {
+  console.error(error)
+}
+```
+
+
