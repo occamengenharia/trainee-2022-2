@@ -1,3 +1,5 @@
+<img src="./img/js-ts.png"/>
+
 ## Variáveis
 
 ```js
@@ -13,8 +15,8 @@ var pessoa = {
   nome: "Jeferson",
   idade: 22,
   peso: 74.4,
-  ehMembro: true
-}
+  ehMembro: true,
+};
 ```
 
 ## Reatribuição de variável
@@ -34,19 +36,19 @@ idade = 23;
 ## Funções
 
 ```js
-function soma(x, y){
+function soma(x, y) {
   return x + y;
 }
 
-const subtrai = function(x, y){
+const subtrai = function (x, y) {
   return x - y;
-}
+};
 
-const multiplica = (x,y) => x * y
+const multiplica = (x, y) => x * y;
 
-const divide = (x,y) => {
+const divide = (x, y) => {
   return x / y;
-}
+};
 ```
 
 ## Condicionais
@@ -54,33 +56,32 @@ const divide = (x,y) => {
 ### `If else`
 
 ```js
-const nome = 'Francisco';
+const nome = "Francisco";
 
-if ( nome === "Paulo" || nome === "Francisco") {
-	console.log('Olá Paulo ou Francisco');
-} else if ( nome === "Jeferson" ) {
-	console.log('Olá Jeferson');
+if (nome === "Paulo" || nome === "Francisco") {
+  console.log("Olá Paulo ou Francisco");
+} else if (nome === "Jeferson") {
+  console.log("Olá Jeferson");
 } else {
-	console.log('Olá desconhecido');
+  console.log("Olá desconhecido");
 }
-
 ```
 
 ### `Switch case`
 
 ```js
-const nome = 'Francisco';
+const nome = "Francisco";
 
 switch (nome) {
-  case 'Jeferson':
-    console.log('Olá Jeferson');
-  break;
-  case 'Paulo':
-  case 'Francisco':
-    console.log('Olá Paulo ou Francisco');
-  break;
+  case "Jeferson":
+    console.log("Olá Jeferson");
+    break;
+  case "Paulo":
+  case "Francisco":
+    console.log("Olá Paulo ou Francisco");
+    break;
   default:
-    console.log('Olá desconhecido');
+    console.log("Olá desconhecido");
 }
 ```
 
@@ -89,7 +90,7 @@ switch (nome) {
 ### `For`
 
 ```js
-for (var i = 0; i <= 3; i++) { 
+for (var i = 0; i <= 3; i++) {
   console.log(i);
 }
 ```
@@ -97,8 +98,8 @@ for (var i = 0; i <= 3; i++) {
 ### `For in`
 
 ```js
-var arr = [5,2,7];
-for(var i in arr) {
+var arr = [5, 2, 7];
+for (var i in arr) {
   console.log(arr[i]);
 }
 ```
@@ -107,36 +108,35 @@ for(var i in arr) {
 
 ```js
 var x = true;
-while(x) {  
-    console.log('Jane Doe');  
-    x = false;
+while (x) {
+  console.log("Jane Doe");
+  x = false;
 }
 ```
 
 ### `Do While`
 
 ```js
-do {  
-  console.log('Jane Doe');
-} while(false);
+do {
+  console.log("Jane Doe");
+} while (false);
 ```
 
 ## Try catch
 
 ```js
-
 function sosma(a, b) {
-  if (typeof a !== 'number' || typeof b !== 'number') {
-    throw new Error('Os parâmetros devem ser números')
+  if (typeof a !== "number" || typeof b !== "number") {
+    throw new Error("Os parâmetros devem ser números");
   }
-  return a + b
+  return a + b;
 }
 
-const nome = 'Jef'
+const nome = "Jef";
 try {
-  soma(nome,2)
+  soma(nome, 2);
 } catch (error) {
-  console.error(error)
+  console.error(error);
 }
 ```
 
@@ -144,13 +144,12 @@ try {
 
 ```ts
 function soma(a: number, b: number): number {
-  return a + b
+  return a + b;
 }
 
-const nome: string = 'Jef'
+const nome: string = "Jef";
 
-soma(3,2)
-
+soma(3, 2);
 ```
 
 ```ts
@@ -163,16 +162,16 @@ const tecnologia: Array<string> = ["javascript", "css", "html"];
 const vetorAleatorio: Array<any> = ["texto", 1, true, 2.3];
 
 interface IPessoa {
-  nome: string
-  idade: number
-  peso: number
-  ehMembro: boolean
+  nome: string;
+  idade: number;
+  peso: number;
+  ehMembro: boolean;
 }
 
 const pessoa: IPessoa = {
   nome: "Jeferson",
   idade: 22,
   peso: 74.4,
-  ehMembro: true
-}
+  ehMembro: true,
+};
 ```
