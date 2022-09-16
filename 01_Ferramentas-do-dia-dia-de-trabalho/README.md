@@ -1,5 +1,6 @@
+<p align="center">
 <img src="./img/wordart.png"/> 
-
+</p>
 
 No dia a dia da empresa, utilizamos algumas ferramentas para organização e produtividade em todos os setores, e são elas:
 
