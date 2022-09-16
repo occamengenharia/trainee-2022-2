@@ -13,7 +13,7 @@ Editor de Texto/IDE da Microsoft (que é na verdade quase uma IDE universal), qu
 ## Como Instalar?
 
 <p align="center">
-`✨ Linux(❤️) ✨`<br>
+<code>✨ Linux(❤️) ✨</code><br>
 <img src="./img/penguin-computing.gif" width="100px">
 </p>
 
@@ -30,7 +30,7 @@ Editor de Texto/IDE da Microsoft (que é na verdade quase uma IDE universal), qu
 - Abra o terminal e execute `sudo snap install code --classic
 `
 <p align="center">
-`Windows(🤢)`
+<code>Windows(🤢)</code>
 </p>
 
 
