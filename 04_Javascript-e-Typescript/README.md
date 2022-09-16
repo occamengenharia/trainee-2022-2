@@ -1,0 +1,178 @@
+## Variáveis
+
+```js
+var nome = "Jeferson";
+var idade = 22;
+var peso = 64.4;
+var ehMembro = true;
+
+var tecnologia = ["javascript", "css", "html"];
+var vetorAleatorio = ["texto", 1, true, 2.3];
+
+var pessoa = {
+  nome: "Jeferson",
+  idade: 22,
+  peso: 74.4,
+  ehMembro: true
+}
+```
+
+## Reatribuição de variável
+
+```js
+var idade = 22;
+idade = 23;
+```
+
+## Impossibilitar a Reatribuição
+
+```js
+const idade = 22;
+idade = 23;
+```
+
+## Funções
+
+```js
+function soma(x, y){
+  return x + y;
+}
+
+const subtrai = function(x, y){
+  return x - y;
+}
+
+const multiplica = (x,y) => x * y
+
+const divide = (x,y) => {
+  return x / y;
+}
+```
+
+## Condicionais
+
+### `If else`
+
+```js
+const nome = 'Francisco';
+
+if ( nome === "Paulo" || nome === "Francisco") {
+	console.log('Olá Paulo ou Francisco');
+} else if ( nome === "Jeferson" ) {
+	console.log('Olá Jeferson');
+} else {
+	console.log('Olá desconhecido');
+}
+
+```
+
+### `Switch case`
+
+```js
+const nome = 'Francisco';
+
+switch (nome) {
+  case 'Jeferson':
+    console.log('Olá Jeferson');
+  break;
+  case 'Paulo':
+  case 'Francisco':
+    console.log('Olá Paulo ou Francisco');
+  break;
+  default:
+    console.log('Olá desconhecido');
+}
+```
+
+## Estrutura de repetição
+
+### `For`
+
+```js
+for (var i = 0; i <= 3; i++) { 
+  console.log(i);
+}
+```
+
+### `For in`
+
+```js
+var arr = [5,2,7];
+for(var i in arr) {
+  console.log(arr[i]);
+}
+```
+
+### `While`
+
+```js
+var x = true;
+while(x) {  
+    console.log('Jane Doe');  
+    x = false;
+}
+```
+
+### `Do While`
+
+```js
+do {  
+  console.log('Jane Doe');
+} while(false);
+```
+
+## Try catch
+
+```js
+
+function sosma(a, b) {
+  if (typeof a !== 'number' || typeof b !== 'number') {
+    throw new Error('Os parâmetros devem ser números')
+  }
+  return a + b
+}
+
+const nome = 'Jef'
+try {
+  soma(nome,2)
+} catch (error) {
+  console.error(error)
+}
+```
+
+# TypeScript
+
+```ts
+function soma(a: number, b: number): number {
+  return a + b
+}
+
+const nome: string = 'Jef'
+
+soma(3,2)
+
+```
+
+```ts
+const nome: string = "Jeferson";
+const idade: number = 22;
+const peso: number = 64.4;
+const ehMembro: boolean = true;
+
+const tecnologia: Array<string> = ["javascript", "css", "html"];
+const vetorAleatorio: Array<any> = ["texto", 1, true, 2.3];
+
+interface IPessoa {
+  nome: string
+  idade: number
+  peso: number
+  ehMembro: boolean
+}
+
+const pessoa: IPessoa = {
+  nome: "Jeferson",
+  idade: 22,
+  peso: 74.4,
+  ehMembro: true
+}
+```
