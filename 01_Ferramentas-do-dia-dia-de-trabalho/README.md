@@ -4,9 +4,13 @@
 
 No dia a dia da empresa, utilizamos algumas ferramentas para organização e produtividade em todos os setores, e são elas:
 
-# Visual Studio Code <img src="./img/vscode.png" width="20px">
+<p>
+    <h1>Visual Studio Code 
+        <img src="./img/vscode.png" width="30px">
+        <img src="./img/notepad.gif" align="right"/>
+    </h1>
+</p>
 
-<img src="./img/notepad.gif"/>
 
 Editor de Texto/IDE da Microsoft (que é na verdade quase uma IDE universal), que utilizamos na grande maioria dos projetos.
 
@@ -18,7 +22,7 @@ Editor de Texto/IDE da Microsoft (que é na verdade quase uma IDE universal), qu
 </p>
 
 
-- Caso voce use Linux , você pode instalar `manualmente`(Opção 1), ou utilizando o gerenciador de pacotes `snap`(Opção 2, bem mais legal), que, dependendo da sua distro, não vem instalado por padrão.
+- Caso voce use Linux , você pode instalar `manualmente` (Opção 1), ou utilizando o gerenciador de pacotes `snap` (Opção 2, bem mais legal), que, dependendo da sua distro, não vem instalado por padrão.
 
 ### Opção 1 
 - **Passo 1** - Acesse esse [link](https://code.visualstudio.com/download), baixe a versão .deb(para distros baseadas em Debian ou Ubuntu) ou .rpm para distros baseadas em Red Hat;
@@ -30,9 +34,11 @@ Editor de Texto/IDE da Microsoft (que é na verdade quase uma IDE universal), qu
 - Abra o terminal e execute `sudo snap install code --classic
 `
 <p align="center">
-<code>Windows(🤢)</code>
+    <code>Windows(🤢)</code>
 </p>
 
+**Você está sendo avaliado, e o seu prazo para instalar Linux na sua máquina está acabando.**<br>
+- Contudo, enquanto você ainda decide qual distro **IRÁ** instalar, baixe a versão para windows [aqui](https://code.visualstudio.com/Download) e instale.
 
 
 
