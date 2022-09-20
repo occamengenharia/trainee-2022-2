@@ -70,20 +70,31 @@ Você pode instalar o Git para qualquer sistema operacional através deste [link
 
 Caso você use alguma distro baseada em Debian ou Ubuntu, você pode simplesmente usar 
 ```
-    sudo apt-get install git
+            sudo apt-get install git
 ```
-Caso você utilize alguma outra distro, você pode seguir [este tutorial](https://git-scm.com/download/linux) do proprio site do git.
+>Caso você utilize alguma outra distro, você pode seguir [este tutorial](https://git-scm.com/download/linux) do proprio site do git.
+
+<p align="center">
+    <code>Windows(🤢)</code>
+</p>
+
+Para instalar no Windows, você pode encontrar o instalador [aqui](https://git-scm.com/download/win).
+Baixe o Standalone Installer e siga os passos do setup.
+
+>OBS: No Windows, junto ao git, também é instalado o BASH, que seria mais ou menos um terminal parecido com o do linux, no qual você pode utilizar os comandos do git no terminal.
+
+### ***Além do básico***
+
+Caso você não conheça Git ou GitHub ou ainda não sabe como o mesmo funciona, e quer se sobressair neste trainee, aqui está um [curso gratuito da Udemy sobre Git e Github](https://www.udemy.com/course/git-e-github/)(que também tem um tutorial de instalação) e também pode ler o Pro Git Book na versão em [Inglês]((https://git-scm.com/book/en/v2)) ou [Português](https://git-scm.com/book/pt-br/v2).
+
+### ***Chave SSH***
+
+Quando você for utilizar propriamente o Git com alguma plataforma de hospedagem, você pode realizar o "contato" entre a plataforma e o seu computador através do protocólo HTTP (o qual sempre toma mais tempo no uso do dia a dia, pois irá requisitar seu usuário e senha a cada `push`, `pull`, `clone`, etc) ou através de uma Chave SSH compartilhada entre o seu computador e a plataforma(no caso agora, o GitHub), então, para criar e configurar uma nova chave SSH, você pode seguir este [Tutorial de criação e configuração da chave SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) ou assista [esse vídeo](https://www.youtube.com/watch?v=7YVQLZp1jb0) que talvez seja um pouco mais intuitivo.
+>Você também pode ler um pouco sobre os protocolos do git [neste capitulo](https://git-scm.com/book/pt-br/v2/Git-on-the-Server-The-Protocols) do Pro Git Book.
 
 
-Caso você não conheça Git ou GitHub ou ainda não sabe como o mesmo funciona, e quer se sobressair neste trainee, aqui está um [curso gratuito da Udemy sobre Git e Github](https://www.udemy.com/course/git-e-github/) e também pode ler o Pro Git Book na versão em [Inglês]((https://git-scm.com/book/en/v2)) ou [Português](https://git-scm.com/book/pt-br/v2).
 
 
 
-
-
-
-
-
-
-
+<br><br><br><br><br><br>
 <img src="./img/ie.gif">
