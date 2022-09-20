@@ -57,7 +57,7 @@ Editor de Texto/IDE da Microsoft (que é na verdade quase uma IDE universal), qu
 </p>
 
 O GitHub é uma plataforma de hospedagem de códigos, na qual desenvolvedores podem colaborar em diversos projetos privados ou de Código Aberto através do **Git**, que é um sistema de controle para versionamento de código. <br>
-Caso você ainda não tenha uma conta no GitHub, você pode se cadastrar [aqui](https://github.com/signup).
+Caso você ainda não tenha uma conta no GitHub, você pode **E DEVE** se cadastrar [aqui](https://github.com/signup).
 
 ## Instalação do Git
 
@@ -85,7 +85,7 @@ Baixe o Standalone Installer e siga os passos do setup.
 
 ### ***Além do básico***
 
-Caso você não conheça Git ou GitHub ou ainda não sabe como o mesmo funciona, e quer se sobressair neste trainee, aqui está um [curso gratuito da Udemy sobre Git e Github](https://www.udemy.com/course/git-e-github/)(que também tem um tutorial de instalação) e também pode ler o Pro Git Book na versão em [Inglês]((https://git-scm.com/book/en/v2)) ou [Português](https://git-scm.com/book/pt-br/v2).
+Caso você não conheça Git ou GitHub ou ainda não sabe como o mesmo funciona, e quer se sobressair neste trainee, aqui está um [curso gratuito da Udemy sobre Git e Github](https://www.udemy.com/course/git-e-github/)(que também tem um tutorial de instalação) e também pode ler o Pro Git Book na versão em [Inglês](https://git-scm.com/book/en/v2) ou [Português](https://git-scm.com/book/pt-br/v2).
 
 ### ***Chave SSH***
 
