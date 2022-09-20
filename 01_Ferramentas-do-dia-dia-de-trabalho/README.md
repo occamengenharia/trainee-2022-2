@@ -4,6 +4,8 @@
 
 No dia a dia da empresa, utilizamos algumas ferramentas para organização e produtividade em todos os setores, e são elas:
 
+<br>
+
 <p>
     <h1>Visual Studio Code 
         <img src="./img/vscode.png" width="30px">
@@ -38,7 +40,17 @@ Editor de Texto/IDE da Microsoft (que é na verdade quase uma IDE universal), qu
 </p>
 
 **Você está sendo avaliado, e o seu prazo para instalar Linux na sua máquina está acabando.**<br>
-- Contudo, enquanto você ainda decide qual distro **IRÁ** instalar, baixe a versão para windows [aqui](https://code.visualstudio.com/Download) e instale.
+- Contudo, enquanto você ainda decide qual distro **IRÁ** instalar, baixe a versão para windows [aqui](https://code.visualstudio.com/Download) e siga os passos do instalador.
+
+> Em caso de dúvidas, você também pode consultar a [documentação do vscode](https://code.visualstudio.com/docs).
+
+<br>
+<p>
+    <h1>GitHub
+        <img src="./img/github.png" width="30px">
+        <img src="./img/notepad.gif" align="right"/>
+    </h1>
+</p>
 
 
 
