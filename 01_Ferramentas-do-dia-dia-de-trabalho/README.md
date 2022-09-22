@@ -94,16 +94,34 @@ Quando você for utilizar propriamente o Git com alguma plataforma de hospedagem
 
 <br>
 
-# **Outros sites e ferramentas que utilizamos**
-
 <p>
-    <h1>- Trello
-        <img src="./img/trellogo.png" width="25px">
-        <!-- <img src="./img/branch.gif" align="right"/> -->
+    <h1>
+        Outros sites e ferramentas que utilizamos
+        <img src="./img/topic.gif" width="50px"/>
     </h1>
 </p>
 
-O trello é uma ferramenta gratuíta para organização de projetos e tarefas através de Kanban. Utilizamos muito na Occam principalmente para designação de tarefas.
+
+<p>
+    <h2 align="center">
+    Trello
+        <img src="./img/trellogo.png" width="20px">
+    </h2>
+</p>
+
+O trello é uma ferramenta gratuíta para organização de projetos e tarefas através de Kanban. Utilizamos muito na Occam principalmente para designação de tarefas, mas você também pode utilizar para seus projetos pessoais. 
+
+Você pode e deve criar sua conta do Trello [aqui](https://trello.com/signup).
+
+Kanban é top e se você ainda não tem o costume de utilizar, é bom já ir se habituando.
+
+<p>
+    <h2 align="center">
+    Notion
+        <img src="./img/notion.png" width="20px">
+    </h2>
+</p>
+
 
 <br><br><br><br><br><br>
 <img src="./img/ie.gif">
