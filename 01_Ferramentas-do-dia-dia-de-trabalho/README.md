@@ -98,7 +98,7 @@ Quando você for utilizar propriamente o Git com alguma plataforma de hospedagem
 
 <p>
     <h1>- Trello
-        <img src="./img/trello.png" width="25px">
+        <img src="./img/trellogo.png" width="25px">
         <!-- <img src="./img/branch.gif" align="right"/> -->
     </h1>
 </p>
