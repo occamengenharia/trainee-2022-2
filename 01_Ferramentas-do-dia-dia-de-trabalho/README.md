@@ -52,7 +52,7 @@ Editor de Texto/IDE da Microsoft (que é na verdade quase uma IDE universal), qu
 <p>
     <h1>GitHub
         <img src="./img/github.png" width="30px">
-        <img src="./img/notepad.gif" align="right"/>
+        <img src="./img/branch.gif" align="right"/>
     </h1>
 </p>
 
