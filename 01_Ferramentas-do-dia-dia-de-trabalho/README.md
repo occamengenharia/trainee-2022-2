@@ -92,9 +92,18 @@ Caso você não conheça Git ou GitHub ou ainda não sabe como o mesmo funciona,
 Quando você for utilizar propriamente o Git com alguma plataforma de hospedagem, você pode realizar o "contato" entre a plataforma e o seu computador através do protocólo HTTP (o qual sempre toma mais tempo no uso do dia a dia, pois irá requisitar seu usuário e senha a cada `push`, `pull`, `clone`, etc) ou através de uma Chave SSH compartilhada entre o seu computador e a plataforma(no caso agora, o GitHub), então, para criar e configurar uma nova chave SSH, você pode seguir este [Tutorial de criação e configuração da chave SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) ou assista [esse vídeo](https://www.youtube.com/watch?v=7YVQLZp1jb0) que talvez seja um pouco mais intuitivo.
 >Você também pode ler um pouco sobre os protocolos do git [neste capitulo](https://git-scm.com/book/pt-br/v2/Git-on-the-Server-The-Protocols) do Pro Git Book.
 
+<br>
 
+# **Outros sites e ferramentas que utilizamos**
 
+<p>
+    <h1>- Trello
+        <img src="./img/trello.png" width="25px">
+        <!-- <img src="./img/branch.gif" align="right"/> -->
+    </h1>
+</p>
 
+O trello é uma ferramenta gratuíta para organização de projetos e tarefas através de Kanban. Utilizamos muito na Occam principalmente para designação de tarefas.
 
 <br><br><br><br><br><br>
 <img src="./img/ie.gif">
