@@ -111,9 +111,12 @@ Quando você for utilizar propriamente o Git com alguma plataforma de hospedagem
 
 O trello é uma ferramenta gratuíta para organização de projetos e tarefas através de Kanban. Utilizamos muito na Occam principalmente para designação de tarefas, mas você também pode utilizar para seus projetos pessoais. 
 
-Você pode e deve criar sua conta do Trello [aqui](https://trello.com/signup).
 
-Kanban é top e se você ainda não tem o costume de utilizar, é bom já ir se habituando.
+Kanban é top e se você ainda não tem o costume de utilizar, é bom já ir se habituando. Não tem muito segredo em mexer no Trello, mas [aqui](https://trello.com/pt-BR/tour?&aceid=&adposition=&adgroup=137501782519&campaign=17621015261&creative=607147440910&device=c&keyword=trello&matchtype=e&network=g&placement=&ds_kids=p71879712874&ds_e=GOOGLE&ds_eid=700000001557344&ds_e1=GOOGLE&gclsrc=ds) tem um tour pela plataforma que talvez possa lhe ajudar no primeiro contato.
+
+>Você pode e deve criar sua conta do Trello [aqui](https://trello.com/signup).
+
+<br>
 
 <p>
     <h2 align="center">
@@ -121,6 +124,26 @@ Kanban é top e se você ainda não tem o costume de utilizar, é bom já ir se 
         <img src="./img/notion.png" width="20px">
     </h2>
 </p>
+
+O Notion é um aplicativo muito utilizado para organização de tarefas e equipes, que fornece componentes para que os usuários possam personalizar seu espaço de trabalho da forma que precisar, com listas, calendários, notas, etc. Também é uma ferramenta muito poderosa para organização pessoal.
+
+
+Com [esse vídeo](https://www.youtube.com/watch?v=zfWoGdyrXmU) você pode, se quiser, aprender um pouco sobre como funciona o Notion (deixo aqui também minha recomendação aos vídeos desse mesmo canal 😎).
+
+>Você pode e, novamente, deve criar sua conta [aqui](https://www.notion.so/signup).
+
+<br>
+
+<p>
+    <h2 align="center">
+    Google Calendar
+        <img src="./img/calendar.png" width="20px">
+    </h2>
+</p>
+
+É o serviço de agenda do Google, é grátis, e como você já tem um email da faculdade, já tem o Google Calendar funcionando. Ferramenta ótima para organização de compromissos, reuniões, inclusive é integrada com o Google Meet, então utilizamos muito para o agendamento de reuniões online da occam.
+
+
 
 
 <br><br><br><br><br><br>
