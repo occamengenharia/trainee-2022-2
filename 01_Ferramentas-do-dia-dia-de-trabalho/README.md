@@ -157,5 +157,8 @@ Com [esse vídeo](https://www.youtube.com/watch?v=zfWoGdyrXmU) você pode, se qu
 Não tem nem o que falar.
 
 
-<br><br><br><br><br><br>
-<img src="./img/ie.gif">
+<br><br>
+
+<p align="center">
+    <img src="./img/ie.gif">
+</p>
