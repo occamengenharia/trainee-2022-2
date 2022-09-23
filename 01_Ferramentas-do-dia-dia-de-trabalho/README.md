@@ -7,7 +7,8 @@ No dia a dia da empresa, utilizamos algumas ferramentas para organização e pro
 <br>
 
 <p>
-    <h1>Visual Studio Code 
+    <h1>
+        Visual Studio Code 
         <img src="./img/vscode.png" width="30px">
         <img src="./img/notepad.gif" align="right"/>
     </h1>
@@ -50,7 +51,8 @@ Editor de Texto/IDE da Microsoft (que é na verdade quase uma IDE universal), qu
 
 <br>
 <p>
-    <h1>GitHub
+    <h1>
+        GitHub
         <img src="./img/github.png" width="30px">
         <img src="./img/branch.gif" align="right"/>
     </h1>
@@ -104,7 +106,7 @@ Quando você for utilizar propriamente o Git com alguma plataforma de hospedagem
 
 <p>
     <h2 align="center">
-    Trello
+        Trello
         <img src="./img/trellogo.png" width="20px">
     </h2>
 </p>
@@ -120,7 +122,7 @@ Kanban é top e se você ainda não tem o costume de utilizar, é bom já ir se 
 
 <p>
     <h2 align="center">
-    Notion
+        Notion
         <img src="./img/notion.png" width="20px">
     </h2>
 </p>
@@ -136,14 +138,23 @@ Com [esse vídeo](https://www.youtube.com/watch?v=zfWoGdyrXmU) você pode, se qu
 
 <p>
     <h2 align="center">
-    Google Calendar
+        Google Calendar
         <img src="./img/calendar.png" width="20px">
     </h2>
 </p>
 
-É o serviço de agenda do Google, é grátis, e como você já tem um email da faculdade, já tem o Google Calendar funcionando. Ferramenta ótima para organização de compromissos, reuniões, inclusive é integrada com o Google Meet, então utilizamos muito para o agendamento de reuniões online da occam.
+É o serviço de agenda do Google, é grátis, e como você já tem um email da faculdade, já tem o Google Calendar funcionando. Ferramenta ótima para organização de compromissos, reuniões, inclusive é integrada com o Google Meet, então utilizamos muito para o agendamento de reuniões online da Occam.
 
+<p>
+    <h2 align="center">
+        Discord 
+        <img src="./img/discord.png" width="30px">
+        e Gmail
+        <img src="./img/gmail.png" width="22px">
+    </h2>
+</p>
 
+Não tem nem o que falar.
 
 
 <br><br><br><br><br><br>
