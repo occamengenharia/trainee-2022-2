@@ -158,7 +158,7 @@ Não tem nem o que falar.
 
 Se não tiver conta no Discord, pode criar [aqui](https://discord.com/register).
 
-
+<br><br>
 <p>
     <h1 align="center">
         Atividade da semana
