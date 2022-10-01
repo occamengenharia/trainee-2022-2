@@ -156,9 +156,14 @@ Com [esse vídeo](https://www.youtube.com/watch?v=zfWoGdyrXmU) você pode, se qu
 
 Não tem nem o que falar.
 
+Se não tiver conta no Discord, pode criar [aqui](https://discord.com/register).
 
-<br><br>
 
-<p align="center">
-    <img src="./img/ie.gif">
+<p>
+    <h1 align="center">
+        Atividade da semana
+        <img src="./img/vscode.png" width="30px">
+    </h1>
 </p>
+
+- Criar as contas nas ferramentas mencionadas acima e enviá-las nesse [formulário](https://forms.gle/MSKY2WcQAfbQVjRQ9).
