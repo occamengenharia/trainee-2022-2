@@ -70,7 +70,7 @@ Você pode instalar o Git para qualquer sistema operacional através deste [link
 <img src="./img/penguin-computing.gif" width="100px">
 </p>
 
-Caso você use alguma distro baseada em Debian ou Ubuntu, você pode simplesmente usar 
+Geralmente o git já vem instalado em várias distros do linux, mas caso você use alguma distro baseada em Debian ou Ubuntu e por algum motivo não tenha vindo por padrão, você pode simplesmente usar 
 ```
             sudo apt-get install git
 ```
