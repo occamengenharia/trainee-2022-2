@@ -37,12 +37,13 @@ A linguagem HTML é formada por tags. As tags são formados por comandos, escrit
 ```html
 <!DOCTYPE html> //é a identificação para o browser que o documento que está sendo "lido" se trata de um .html
 <head>
-    // é o conteúdo "cabeça" da página, onde vão as tags de título
-    // e ícone da página(a parte visível da head) e metadados, e coisas relacionadas
-    // a mecanismos de pesquisa, programas, etc(parte que o usuário não vê mas sente). 
+        // é o conteúdo "cabeça" da página, onde vão as tags de título
+        // e ícone da página(a parte visível da head) e metadados,  coisas relacionadas
+        // a mecanismos de pesquisa, programas, etc(parte que o usuário não vê mas sente). 
 </head>
 <body>
-
+        // é a parte onde tudo que é visível da página é estruturada
+        //cabeçalho da página, barras de navegação, cards, etc
 </body>
 
 ```
