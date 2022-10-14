@@ -115,10 +115,7 @@ Para o uso na body do documento, onde temos tudo que é visível da página, pod
 | ------- | -------- | -------- | -------- |
 | `<a>`  | Utilizada para links | Anchor | <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">NÃO CLIQUE AQUI DE JEITO NENHUM</a>|
 | `<img>`  | Utilizado para inserir imagens | Image | <p align="center"><img src="./img/imagem.jpg" alt="pedido de socorro" width="120px"> </p>|
-| `<video>` | Utilizado para inserir vídeos | hmmm | <video width="320" height="240" controls>
-  <source src="./img/video.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video> |
+| `<video>` | Utilizado para inserir vídeos | hmmm | <a href="./img/video.mp4"><p align="center"><img src="./img/video.png" width="120px"></p></a><br>Infelizmente a tag de vídeo não funciona em markdown, mas tem exemplo embaixo |
 
 ```html
     //Uso da <a>
@@ -126,4 +123,10 @@ Your browser does not support the video tag.
     
     //Uso da <img>
     <img src="./img/imagem.jpg" alt="pedido de socorro" width="120px"> 
+
+    //Uso da <video>
+    <video width="320" height="240" controls>
+        <source src="./img/video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
 ```
