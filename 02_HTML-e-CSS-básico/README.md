@@ -215,3 +215,11 @@ Vira
 # CSS 
 
 O CSS será explicado durante a reunião.
+
+# Tarefa da semana
+
+Crie uma conta no [FreeCodeCamp](https://www.freecodecamp.org/), e comece o curso de Design Web Responsivo, que inclui CSS e HTML from zero to hero.
+
+ No FreeCodeCamp você pode aprender ✨de graça✨ várias tecnologias usadas na Web, inclusive com uma trilha bem formada de HTML, CSS, JavaScript, NodeJS, Python e até preparação para entrevistas de emprego. Inclusive você pode adquirir certificações para decorar seu linkedin.
+
+Não precisa provar que criou a conta nem que fez o curso, eu confio em você. <small><strike>No fim quem sai prejudicado caso não crie eh vc msm</strike></small>
