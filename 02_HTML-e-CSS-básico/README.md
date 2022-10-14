@@ -374,7 +374,9 @@ Para estilizar uma ID, utiliza-se `#nome-do-id`:
 ```html
     <input type="email" id="formulario-email">
 ```
+> ### Assim como HTML, o CSS é um conteúdo muito vasto, muitas coisas estão faltando aqui, mas tudo isso e muito mais você pode encontrar ✨GRATUITAMENTE✨ em [html.com/css](https://html.com/css), ou no [W3Schools](https://www.w3schools.com/css/default.asp) ou no [MDN](https://developer.mozilla.org/pt-BR/docs/Web/css) (esse tem em português)
 
+<br>
 
 # Tarefa da semana
 
