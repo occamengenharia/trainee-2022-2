@@ -230,7 +230,121 @@ Vira
 
 # CSS 
 
-O CSS será explicado durante a reunião.
+CSS significa Cascading Style Sheets, ou, Folhas de Estilo em Cascata. É o divisor de águas quando se trata de formatação dos seus sites. Permite que você estilize tudo, desde cor e fonte dos textos até formato de botões, estilo da scrollbar, cor de fundo, literalmente tudo.
+
+## Como funciona o CSS?
+
+Você pode adicionar CSS aos seus documentos HTML de 3 formas:
+- Inline;
+- Interno;
+- Externa
+
+### Inline
+```html
+    <!-- 
+        A estilização é feita na própria linha da tag HTML
+        Não recomendo utilizar muito esse modelo, pois acaba sendo mais trabalhoso de 
+        fazer manutenções na página mais tarde.   
+    -->
+    <p style="color: red; font-size: 15px;">
+```
+
+### Interno
+```html
+    <!-- 
+        A estilização de forma interna consiste em utilizar a tag <style>
+        como foi apresentado no exemplo em HTML
+     -->
+     <head>
+        <meta charset="UTF-8">
+        <style> /* a partir daqui pode ser inserido código CSS*/
+            body{
+                margin: 0;/* Define a margem da tag body como 0*/
+                padding: 0; /* Define o "preenchimento" da tag body como 0*/
+                background: #d3d3d3; /* Define a cor do background da tag body como #d3d3d3, hexadecimal para cinza*/
+            }
+            h1 {
+                color: blue;
+                font-size: 32px;
+            }
+        </style>
+    </head>
+```
+
+### Externo
+`index.html`
+```html
+    <!-- 
+        Consiste na vinculação do seu arquivo HTML com um arquivo de estilos CSS externo
+     -->
+    <head>
+        <ling rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+```
+`styles.css`
+```css
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    h1 {
+        color: blue; /* define a cor do texto como azul */
+        text-align: center; /* alinha o texto ao centro */
+        font-size: 20px; /* altera o tamanho da fonte do texto */
+        font-family: verdana; /* define a família da fonte como verdana*/
+    }
+
+```
+
+> No caso de multiplas folhas de estilo, caso haja várias estilizações para a mesma tag, a que será aplicada à tag é a ultima que foi declarada na `head` da página.
+
+### Ordem de "importância"
+Os browsers que interpretam o código HTML e CSS seguem a seguinte ordem para a aplicação dos estilos CSS, na seguinte ordem de prioridade.
+- 1º Inline
+- 2º Externa e Interna
+- 3º Padrão do navegador
+
+Ou seja, caso você utilize algum estilo inline, ele será sobreposto aos outros estilos aplicados no documento.
+
+## Seletores CSS
+Para aplicar as estilizações na página, o CSS utiliza de seletores para selecionar aonde será aplicado cada estilo. E quanto aos seletores, existem 3 princpais, sendo eles:
+
+### Seletor de Elementos
+Consiste na seleção de elementos padrão do HTML, como `h1`, `p`, `div`, `img` e todas as outras tags.
+```css
+    * { /* Este é o seletor universal do CSS, é aplicado a todas as tags do documento */ 
+        margin: 0;
+        padding: 0;
+    }
+    h1 {
+        text-align: center;
+        color: white;
+    }
+    img {
+        border: 4px solid #d3d3d3;
+    }
+```
+> Caso você queira aplicar o mesmo estilo a várias tags, você pode agrupá-las da seguinte forma:
+```css
+    h1, h2, p {
+        text-align: center;
+        color: white;
+    } 
+```
+### Seletor de Classe
+```css
+
+```
+
+### Seletor de IDs
+```css
+```
+
 
 # Tarefa da semana
 
