@@ -1,3 +1,5 @@
+<p align="center"><img src="./img/wordart.png" width="600px"></p>
+
 # O que é o HTML?
  
  HTML é a tecnologia fundamental para definir a estrutura de uma página web. Você pode utilizá-lo para identificar o que cada parte do seu website é um texto, link, imagem, formulário, etc
@@ -40,10 +42,10 @@
 Os atributos são pedaços adicionais de informações dos elementos do HTML, como:
 
 ```html
-    <img src="minha-imagem.jpg" alt="Esta imagem eh minha">
+    <img src="minha-imagem.jpg" alt="Esta imagem eh minha" class="imagem" id="minha-imagem">
 ```
 
-- Neste caso, `src` e `alt` são atributos da tag `img`.
+- Neste caso, `src`, `alt`, `class` e `id` (as duas ultimas sendo utilizadas juntamente ao CSS) são atributos da tag `img`, outros atributos do html são `target`, `href`, `background` e `bordercolor`.
 
 > Lembrando que a maioria das tags devem ser abertas `<tag>` e fechadas `</tag>` e, no caso de usar mais do que uma tag, elas devem ser fechadas como "pilha" na ordem que foram abertas: `<div><p><h2>Texto</h2></p></div>`
 
@@ -108,6 +110,7 @@ Para o uso na body do documento, onde temos tudo que é visível da página, pod
 | `<ins>`  | Igual `<u>` | Inserted | <ins>Inserted</ins> |
 | `<sub>`  | Texto subscrito | Subscript | S<sub>ubscript</sub> |
 | `<sup>`  | Texto superescrito | Superscript | S<sup>uperscript</sup> |
+| `<hr>`  | Insere uma linha horizontal. Muito utilizado para separar conteúdos | Horizontal Row | <hr> |.
 
 ### Link e imagens
 
@@ -115,7 +118,7 @@ Para o uso na body do documento, onde temos tudo que é visível da página, pod
 | ------- | -------- | -------- | -------- |
 | `<a>`  | Utilizada para links | Anchor | <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">NÃO CLIQUE AQUI DE JEITO NENHUM</a>|
 | `<img>`  | Utilizado para inserir imagens | Image | <p align="center"><img src="./img/imagem.jpg" alt="pedido de socorro" width="120px"> </p>|
-| `<video>` | Utilizado para inserir vídeos | hmmm | <a href="https://twitter.com/i/status/1579562567386927105"><p align="center"><img src="./img/video.png" width="120px"></p></a><br><sub>Infelizmente a tag de vídeo não funciona em markdown, mas tem exemplo embaixo |
+| `<video>` | Utilizado para inserir vídeos | hmmm | <a href="https://video.twimg.com/ext_tw_video/1579561426821255183/pu/vid/720x720/d-59uKCjjOsjU_p2.mp4?tag=12"><p align="center"><img src="./img/video.png" width="120px"></p></a><br><sub>Infelizmente a tag de vídeo não funciona em markdown, mas tem exemplo embaixo |
 
 ```html
     //Uso da <a>
@@ -127,6 +130,88 @@ Para o uso na body do documento, onde temos tudo que é visível da página, pod
     //Uso da <video>
     <video width="320" height="240" controls>
         <source src="./img/video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
+        Seu navegador não suporta exibição de vídeo.
     </video>
 ```
+
+### Outras tags MUITO importantes
+
+- `<div>`
+    
+    Não possui significado semântico, é utilizada para definir containers na página e, com isso, aplicar as devidas formatações com CSS para o conteúdo da div. É uma das tags que você mais vai ver sendo usada no HTML.
+
+    ```html
+        <div class="cabecalho">
+            <img src="etcetc.jpg">
+            <a href="link">
+            <a href="link">
+            <a href="link">
+        </div>
+        <div class="navegacao-lateral">
+            <ul>
+                <li>Elemento</li>
+                <li>Elemento</li>
+                <li>Elemento</li>
+                <li>Elemento</li>
+            </ul>
+        </div>
+    ```
+
+### Outros elementos
+    
+- `<ul></ul>`
+      
+  Lista não-ordenada.
+      
+- `<ol></ol>`
+    
+  Lista ordenada.
+    
+> Para adicionar elementos às listas basta inserir `<li>`...`</li>` dentro das tags de lista.
+    
+- Tabelas
+  
+  - `<table></table>`
+  
+    Utilizada para a construção de tabelas, composta por `<tr>` - Table Row(linha), `<th>` - Table Header(cabeçalho) e `<td>` - Table Data(dados)
+
+`Exemplo`
+```html
+<table>
+    <tr>
+        <th>Emoção</th>
+        <th>To sentindo</th>
+    </tr>
+    <tr>
+        <td>tristeza😢</td>
+        <td>sim </td>
+    </tr>
+    <tr>
+        <td>felicidade</td>
+        <td>também</td>
+    </tr>
+</table>
+```
+Vira
+<table>
+    <tr>
+        <th>Emoção</th>
+        <th>To sentindo</th>
+    </tr>
+    <tr>
+        <td>tristeza😢</td>
+        <td>sim </td>
+    </tr>
+    <tr>
+        <td>felicidade😎</td>
+        <td>também</td>
+    </tr>
+</table>
+
+> ### Como HTML é um conteúdo muito vasto, muitas coisas estão faltando aqui, mas tudo isso e muito mais você pode encontrar ✨GRATUITAMENTE✨ em [html.com](https://html.com/), ou no [W3Schools](https://www.w3schools.com/html/default.asp) ou no [MDN](https://developer.mozilla.org/pt-BR/docs/Web/HTML) (esse tem em português)
+
+<br>
+
+# CSS 
+
+O CSS será explicado durante a reunião.
