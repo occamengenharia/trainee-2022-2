@@ -115,7 +115,7 @@ Para o uso na body do documento, onde temos tudo que é visível da página, pod
 | ------- | -------- | -------- | -------- |
 | `<a>`  | Utilizada para links | Anchor | <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">NÃO CLIQUE AQUI DE JEITO NENHUM</a>|
 | `<img>`  | Utilizado para inserir imagens | Image | <p align="center"><img src="./img/imagem.jpg" alt="pedido de socorro" width="120px"> </p>|
-| `<video>` | Utilizado para inserir vídeos | hmmm | <a href="./img/video.mp4"><p align="center"><img src="./img/video.png" width="120px"></p></a><br>Infelizmente a tag de vídeo não funciona em markdown, mas tem exemplo embaixo |
+| `<video>` | Utilizado para inserir vídeos | hmmm | <a href="https://twitter.com/i/status/1579562567386927105"><p align="center"><img src="./img/video.png" width="120px"></p></a><br><sub>Infelizmente a tag de vídeo não funciona em markdown, mas tem exemplo embaixo |
 
 ```html
     //Uso da <a>
