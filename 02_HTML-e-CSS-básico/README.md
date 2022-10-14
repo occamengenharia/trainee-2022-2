@@ -2,7 +2,7 @@
 
 # O que é o HTML?
  
- HTML é a tecnologia fundamental para definir a estrutura de uma página web. Você pode utilizá-lo para identificar o que cada parte do seu website é um texto, link, imagem, formulário, etc
+ HTML é a tecnologia fundamental para definir a estrutura de uma página web. Ele é utilizado para indicar ao browser cada elemento da página web, sejam eles textos, imagens, links, formulários, entre outros.
 
 > HTML vem do 'grego' HyperText Markup Language
 
@@ -55,41 +55,57 @@ Os atributos são pedaços adicionais de informações dos elementos do HTML, co
 Estas tags são a estrutura básica de uma página web:
 
 ```html
-<!DOCTYPE html> //é a identificação para o browser que o documento que está sendo "lido" se trata de um .html
-<html> //identificação para o browser que a partir daqui será tudo no mundo do HTML
+<!DOCTYPE html> <!-- é a identificação para o browser que o documento que está sendo "lido" se trata de um .html -->
+<html> <!-- identificação para o browser que a partir daqui será tudo no mundo do HTML -->
     <head>
-        // é o conteúdo "cabeça" da página, onde vão as tags de título
-        // e ícone da página(a parte visível da head) e metadados,  coisas relacionadas
-        // a mecanismos de pesquisa, programas, etc(parte que o usuário não vê mas sente). 
+        <!-- Aqui são inseridos tags de configuração do documento que não são exibidos para o usuário
+        como metadados, carregamento de arquivos externos(JS, CSS, Fontes de texto), ícone e título da página
+        entre outros -->
     </head>
     <body>
-        // é a parte onde tudo que é visível da página é estruturada
-        //cabeçalho da página, barras de navegação, cards, etc
+        <!--é a parte onde tudo que é visível da página é estruturada
+        cabeçalho da página, barras de navegação, cards, etc-->
     </body>
 </html>
 ```
-
+> Como pôde ser visto no exemplo acima, as tags `<!-- -->` servem para encapsular comentários
 # Outras tags
 
 ##  Dentro da  `<head>`
-> Para dentro da head, duas das tags mas importantes são
+> Para dentro da head, algumas tags são
 
 | Tag  | Uso   |
 | ------- | -------- |
 | `<title>`  | Título da página (que aparecerá na guia do browser)    |
 | `<meta>`  | Onde os metadados da página são guardados (codificação de caracteres, descrição, etc) |
+| `<style>` | Inserção de CSS no documento, podendo ser interno ou externo |
+| `<link>` | Vincula seu documento com algum arquivo externo |
+| `<script>` | Pode conter código JavaScript como conteúdo da tag, ou apontar para um script externo |
 
 Exemplo de `head`
 
 ```html
     <head>
-    <title>Minha página web</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="Aqui você pode inserir uma descrição da página.">.
-    <meta name="author" content="Gabriel Nicolodi">
+        <title>Minha página web</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Aqui você pode inserir uma descrição da página.">.
+        <meta name="author" content="Gabriel Nicolodi">
+        <style> /* a partir daqui pode ser inserido código CSS*/
+            body{
+                margin: 0;/* Define a margem da tag body como 0*/
+                padding: 0; /* Define o "preenchimento" da tag body como 0*/
+                background: #d3d3d3; /* Define a cor do background da tag body como #d3d3d3, hexadecimal para cinza*/
+            }
+        </style>
+        <!-- Também podemos definir CSS externo, utilizando link-->
+        <link rel="stylesheet" type="text/css" href="style.css"> <!-- Vincula nosso documento com a folha de estilos do tipo text/css que está no diretório atual com o nome style.css-->
+        <link rel="icon" type="image/x-icon" href="/img/favicon.ico"><!-- Define o ícone (favicon) da página -->
+        <script> // A partir daqui tudo é JS 
+            console.log("Script rodando")
+        </script>
     </header>
 ```
-
+> Perceba que, a depender de onde é feito o comentário, o identificador de comentários muda, no caso da tag `<style>`, como tudo que será digitado dentro dessa tag é identificado como CSS, o comentário também deve ser feito no padrão do CSS, que é encapsulando-o com `/* ... */`. Já no caso da tag `<script>`, como tudo dentro dessa tag é JavaScript, os comentários são feitos utilizando `//`, ou também `/* */`. 
 <hr>
 
 ## Dentro do `<body>`
@@ -98,7 +114,7 @@ Para o uso na body do documento, onde temos tudo que é visível da página, pod
 
 | Tag  | Uso   | Significado| Exemplo|
 | ------- | -------- | -------- | -------- |
-| `<h1>` ao `<h6>`  | Utilizada para fazer Títulos no documento | Header | <h2>h2</h2><h3>h3</h3>|
+| `<h1>` ao `<h6>`  | Utilizada para fazer Títulos no documento | Heading | <h2>h2</h2><h3>h3</h3>|
 | `<b>`  | Deixa o texto dentro das tags em negrito | Bold | <b>Bold</b> |
 | `<strong>` | Alternativa ao `<b>`, mais legível | Strong kkkk | <strong>Strong</strong> |
 | `<i>`  | Deixa o texto em itálico | Italic | <i>Italic</i> |
