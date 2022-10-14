@@ -114,4 +114,16 @@ Para o uso na body do documento, onde temos tudo que é visível da página, pod
 | Tag  | Uso   | Significado| Exemplo|
 | ------- | -------- | -------- | -------- |
 | `<a>`  | Utilizada para links | Anchor | <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">NÃO CLIQUE AQUI DE JEITO NENHUM</a>|
-| `<img>`  | Utilizado para inserir imagens | Image | <img src="./img/imagem.jpg" width="120px"> |
+| `<img>`  | Utilizado para inserir imagens | Image | <p align="center"><img src="./img/imagem.jpg" alt="pedido de socorro" width="120px"> </p>|
+| `<video>` | Utilizado para inserir vídeos | hmmm | <video width="320" height="240" controls>
+  <source src="./img/video.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> |
+
+```html
+    //Uso da <a>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">NÃO CLIQUE AQUI DE JEITO NENHUM</a>
+    
+    //Uso da <img>
+    <img src="./img/imagem.jpg" alt="pedido de socorro" width="120px"> 
+```
