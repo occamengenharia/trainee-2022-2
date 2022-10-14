@@ -228,7 +228,8 @@ Vira
 
 <br>
 
-# CSS 
+<h1 align="center">✨CSS✨<br><br>
+<img src="./img/css.jpg" width="240px"></h1> 
 
 CSS significa Cascading Style Sheets, ou, Folhas de Estilo em Cascata. É o divisor de águas quando se trata de formatação dos seus sites. Permite que você estilize tudo, desde cor e fonte dos textos até formato de botões, estilo da scrollbar, cor de fundo, literalmente tudo.
 
@@ -337,12 +338,41 @@ Consiste na seleção de elementos padrão do HTML, como `h1`, `p`, `div`, `img`
     } 
 ```
 ### Seletor de Classe
-```css
+Lembra do atributo `class` que eu passei na parte de HTML? Então, é ele que usaremos agora.
 
+O seletor de Classe permite que sejam selecionados e estilizados todos os elementos que tiverem a classe atribuída à eles. No CSS, para definirmos um estilo para determinada classe, basta digitar `.nome-da-classe`:
+
+`style.css` 
+```css
+    .verde{
+        color: blue;
+    }
+    .titulo-reportagem{
+        color:red;
+        font-size: 36px;
+    }
 ```
 
+`index.html`
+```html
+    <h1 class="titulo-reportagem"><strong>HOMEM</strong> É ENCONTRADO CALVO NA UTFPR</h1>
+```
 ### Seletor de IDs
+Nesse caso, utiliza-se o atributo ID do elemento do HTML para definir o estilo.
+A diferença entre ID e Classe é que ID é utilizado para elementos únicos, ao contrário da classe, que pode ser utilizada para estilizar vários elementos da página.
+
+Para estilizar uma ID, utiliza-se `#nome-do-id`:
+
+`style.css` 
 ```css
+    #formulario-email{
+        border: 2px solid grey;
+        display: flex;
+    }
+```
+`index.html`
+```html
+    <input type="email" id="formulario-email">
 ```
 
 
