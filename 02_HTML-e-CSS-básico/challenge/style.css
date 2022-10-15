@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.borda{
+    border: 1px solid red;
+}
+
+#logo{
+    margin: 72px;
+}
+
+#botoes{
+    margin-left: auto;
+    margin-right: 72px;
+}
+
+#botoes > a > img{
+    width: 24px;
+    margin: 24px;
+}
+
+header{
+    height: 94px;
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+section{
+    margin: 0;
+}
+
+#banner{
+    width: 100%;
+}
+
+#promocao{
+    font-family: "Lato", sans-serif;
+    color: #161616;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #A5A1A1;
+    ;
+}
+
+#texto-promocao-1{
+    font-weight: bolder;
+    margin-left: 72px;
+}
+
+#texto-promocao-2{
+    margin-left: auto;
+    margin-right: 72px;
+}
+
+#produtos{
+    /* margin-left: 72px;
+    margin-right: 72px; */
+    margin: 56px 72px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    height: 392px;
+}
+
+.card-img{
+    width: 304px;
+    height: 304px;
+}
+.card-texto{
+    margin: 11px 0px;
+}
+.card > div > p{
+    color: #161616;
+    margin: 11px 0px;
+}
+
+.preco{
+    color: #5CA720;
+    font-weight: bold;
+}
+
+footer{
+    height: 346px;
+    background-color: #F9F9F9;
+    border-top: 1px solid #A5A1A1;
+}
