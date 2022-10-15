@@ -380,7 +380,9 @@ Para estilizar uma ID, utiliza-se `#nome-do-id`:
 
 # Tarefa da semana
 
-Crie uma conta no [FreeCodeCamp](https://www.freecodecamp.org/), e comece o curso de Design Web Responsivo, que inclui CSS e HTML from zero to hero.
+1. Iremos fazer [este desafio do DevChallenge](https://www.devchallenge.com.br/challenges/630428bf64d3dd284f07974e/details).
+
+2. Crie uma conta no [FreeCodeCamp](https://www.freecodecamp.org/), e comece o curso de Design Web Responsivo, que inclui CSS e HTML from zero to hero.
 
  No FreeCodeCamp você pode aprender ✨de graça✨ várias tecnologias usadas na Web, inclusive com uma trilha bem formada de HTML, CSS, JavaScript, NodeJS, Python e até preparação para entrevistas de emprego. Inclusive você pode adquirir certificações para decorar seu linkedin.
 
