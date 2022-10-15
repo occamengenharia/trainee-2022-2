@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.borda{
+    border: 1px solid red;
+}
+
+.container{
+    width: 1440px;
+    align-self: center;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#cabecalho{
+    height: 94px;
+    padding: 0px 69px 0px 69px;
+    display: flex;
+    align-items: center;
+}
+
+#botoes{
+    margin-left: auto;
+}
+
+.botao-header{
+    margin: 0 19px;
+}
