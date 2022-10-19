@@ -17,17 +17,17 @@
 - Para gerar sua chave SSH, vá no terminal e digite os seguintes comandos: 
 
   ```shell
-  $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+  ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
   ```
 
   > pressionar enter nos passos a seguir até gerar.
 
   ```shell
-  $ eval "$(ssh-agent -s)"
+  eval "$(ssh-agent -s)"
   ```
 
   ```shell
-  $ ssh-add ~/.ssh/id_rsa
+  ssh-add ~/.ssh/id_rsa
   ```
 
   
@@ -45,7 +45,7 @@
   - No **Windows**:
 
     - ```shell
-      $ clip < ~/.ssh/id_rsa.pub
+      clip < ~/.ssh/id_rsa.pub
       ```
 
       
@@ -53,7 +53,7 @@
   - No **Mac**:
 
     - ```shell
-      $ pbcopy < ~/.ssh/id_rsa.pub
+      pbcopy < ~/.ssh/id_rsa.pub
       ```
 > A chave será copiada para a área de transferência.
       
