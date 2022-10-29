@@ -319,3 +319,10 @@ const pessoa: IPessoa = {
   ehMembro: true,
 };
 ```
+
+# Tarefa da semana
+
+1. Crie uma conta no [Code Wars](https://www.codewars.com/dashboard)
+2. Entre para o clan `OCCAM Engenharia 2022/2`
+3. Na home do Code Wars selecione os desafios de `Typescript`
+4. Pratique a maior quantidade de desafios possível e fique no topo do ranking da OCCAM 😝
