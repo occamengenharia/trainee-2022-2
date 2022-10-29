@@ -1,4 +1,10 @@
 <img src="./img/js-ts.png"/>
+## Handy dandy
+Id: jakearl.handydandy-notebook
+Description: Notebook for evaluating scripts in a variety of languages
+Version: 0.1.4
+Publisher: Jackson Kearl
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=jakearl.handydandy-notebook
 
 ## Variáveis
 
