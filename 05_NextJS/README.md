@@ -15,7 +15,7 @@ import React from 'react';
 import './button.css';
 import icon from './button.svg';
 
-function button() {
+function Button() {
 return (
   <button>
     <img src={icon}/>
