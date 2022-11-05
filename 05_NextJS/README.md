@@ -40,7 +40,7 @@ pnpm create next-app
 ### Instalar dependências
 
 ```bash
-npx install <dep>
+npm install <dep>
 # or
 yarn add <dep>
 # or
@@ -51,7 +51,7 @@ pnpm install <dep>
 ### Rodar o projeto
 
 ```bash
-npx run dev
+npm run dev
 # or
 yarn dev
 # or
