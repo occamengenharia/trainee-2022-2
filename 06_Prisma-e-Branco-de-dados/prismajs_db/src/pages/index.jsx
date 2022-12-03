@@ -2,7 +2,11 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as Yup from "yup";
 
-export default function Home() {
+import prisma from '../lib/prisma'
+
+export default function Home(props) {
+  const { nationalities } = props
+
   const validationSchema = Yup.object().shape({
     nome: Yup.string().required("Nome é obrigatório"),
     sobrenome: Yup.string().required("Sobrenome é obrigatório"),
@@ -14,7 +18,6 @@ export default function Home() {
       "Data de nascimento deve ser no formato YYYY-MM-DD"
       ),
     nacionalidade: Yup.string().required("Nacionalidade é obrigatório"),
-    est_civil: Yup.string().required("Estado Civil é obrigatório"),
     senha: Yup.string().required("Senha é obrigatório"),
     confirma_senha: Yup.string().oneOf([Yup.ref("senha"), null], "As senhas devem ser a mesma")
   });
@@ -26,6 +29,36 @@ export default function Home() {
   const { errors } = formState;
 
   async function onSubmit(data) {
+    const {
+      nome,
+      sobrenome,
+      email,
+      dataNascimento,
+      nacionalidade,
+      senha
+    } = data
+
+    const body = JSON.stringify({
+      firstName: nome,
+      lastName: sobrenome,
+      email: email,
+      birthDate: new Date(dataNascimento),
+      password: senha,
+      id_nationality: parseInt(nacionalidade)
+    })
+
+    try {
+      await fetch('/api/user', {
+        method: 'POST',
+        headers: { "Content-Type": "application/json" },
+        body: body
+      })
+      
+      alert('Usuário salvo com sucesso!')
+    } catch(error) {
+      console.error(error)
+    }
+
     return false;
   }
 
@@ -110,6 +143,14 @@ export default function Home() {
                   <option value="" hidden>
                     Selecione sua nacionalidade
                   </option>
+                  {nationalities.map(nationality => (
+                    <option
+                      key={nationality.id_nationality}
+                      value={nationality.id_nationality}
+                    >
+                      {nationality.country}
+                    </option>
+                  ))}
                 </select>
                 <div className="invalid-feedback">{errors.nacionalidade?.message}</div>
               </div>
@@ -162,4 +203,20 @@ export default function Home() {
       </div>
     </>
   );
+}
+
+export const getStaticProps = async () => {
+  const nationalities = await prisma.Nationality.findMany()
+
+  if(nationalities){
+    return {
+      props: {
+        nationalities,
+      }
+    }
+  }
+
+  return {
+    props: {}
+  }
 }
