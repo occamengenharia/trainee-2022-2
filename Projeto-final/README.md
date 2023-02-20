@@ -137,17 +137,15 @@
 - Trazer uma solução para o cliente , vende-lá e desenvolve-lá aplicando os conceitos das metodologias ágeis.
 
 - Grupo 1:
-     - Paulo Amaral (SCRUM master)
-     - Thiago Gonçalves Salustiano
+     - Thiago Gonçalves Salustiano (SCRUM master)
      - Gabriela Nazario Fonseca
      - Luiz Ricardo Brumati De Lima
      - Carlos Eduardo Ribas Dos Santos
-     
+     - Fabrício Giannini
      
 - Grupo 2:
      - Luan Filipe (SCRUM master)
      - Pedro Henrique Gnoatto Rosa
      - Alexandre Meurer Castanhede
      - Kauê Mauri de Souza
-     - Fabrício Giannini
      - Pamela Pereira de Jesus
